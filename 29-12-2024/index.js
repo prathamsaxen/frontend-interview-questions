@@ -22,3 +22,13 @@ console.log(newArr.slice(0,4));
 // Reason = It never modifies the original array it returns the copy of array and first is the starting index and last parameter is the end index
 //          If you give the negative parameters then it will take the index from the end of array.
 
+
+// Question - 3
+// unshift operator.
+const arr2=[1,2,3,4,5];
+console.log(arr2);
+arr2.unshift(0);
+console.log(arr2);
+// Expected Output = [ 0, 1, 2, 3, 4, 5 ]
+// Reason = Unshift method adds the element at the starting of the array.
+
