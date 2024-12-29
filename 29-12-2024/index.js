@@ -86,14 +86,42 @@ console.log(NaN == NaN);
 //                   false
 // Reason = In JavaScript, NaN is never equal to itself (NaN === NaN and NaN == NaN both return false) due to the IEEE 754 floating-point standard.
 
+
+
+
+// Question - 8
 console.log(typeof 1000);
 console.log(typeof typeof 1000)
 // Expeceted Output = number
 //                    string
 // Reason = As the type of number is given in the string format thats why the type of type of is an string.
 
+
+
+
+// Question - 9
 let arr3= [14,5,6,7];
 arr3[10]=100;
 console.log(arr3);
 // Expected Output = [ 14, 5, 6, 7, <6 empty items>, 100 ]
 // Reason = Till the last index all the middle index will be empty indexes automatically.
+
+
+
+
+// Question - 10
+function myFunction(){
+    xyz=100;
+    console.log(xyz);
+}
+
+function myFunction2(){
+    "use strict";
+     abc=100;
+    console.log(abc);
+}
+myFunction();
+myFunction2();
+// Expected Output = 100
+//                   Reference Error
+// n myFunction(), the variable xyz is implicitly created as a global variable (without use strict), so it logs 100, but in myFunction2(), "use strict" enforces strict mode, and the assignment to abc without declaration throws a ReferenceError.
