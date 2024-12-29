@@ -182,3 +182,27 @@ function callbackFunction() {
 // Passing the callback function to the higher-order function
 higherOrderFunction(callbackFunction);
 // avaScript Higher-Order Functions are functions that can accept other functions as arguments, return functions, or both. They enable abstraction and flexibility in code, allowing you to create reusable and modular functions for complex operations, making them essential in functional programming.
+
+
+
+
+
+
+// Question - 16 What is the difference between dependencies vs dev dependencies?
+// Difference between Dependencies and Dev Dependencies:
+// Dependencies:
+
+// These are the packages required for your application to run in a production environment.
+// Example: Express, React, Lodash – any library that your app needs to function.
+// Installed via npm install or yarn install without the --save-dev flag.
+// Automatically bundled in production builds.
+// Dev Dependencies:
+
+// These are packages needed only during the development process (for tasks like testing, building, linting, etc.).
+// Example: Jest, ESLint, Webpack – tools and libraries for development purposes.
+// Installed via npm install --save-dev or yarn add --dev.
+// Not bundled in production builds.
+// Key Differences:
+// Purpose: Dependencies are for production; Dev dependencies are for development.
+// Installation: Dependencies are installed without --save-dev, Dev dependencies use --save-dev.
+// Production Build: Dev dependencies are excluded from the production build.
