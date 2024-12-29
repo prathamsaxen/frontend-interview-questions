@@ -53,3 +53,19 @@ console.log(Obj);
 // Reason = When an object is created, if it contains duplicate keys, the last occurrence of the key in the object literal will ov erwrite the previous value. This is because JavaScript objects treat keys as unique.
 // Reason behind a = In JavaScript object literals, property keys are treated uniformly, regardless of how they are written—whether as identifiers (like a) or string literals (like "a"). Internally, JavaScript converts both to strings, as object keys can only be strings or symbols.
 
+
+// Question - 5
+console.log(!"hello");
+console.log(+false);
+// Expection Output = false
+//                    0
+// Explanation:
+// The ! operator (logical NOT) converts its operand to a boolean and then negates it.
+// "hello" is a non-empty string, and in JavaScript, any non-empty string is treated as truthy.
+// The coercion process:
+// "hello" → truthy → true.
+// Applying the ! operator negates it: !true → false.
+// Explanation:
+// The + operator (unary plus) tries to convert its operand to a number.
+// The false boolean is coerced to a numeric value:
+// false → 0.
