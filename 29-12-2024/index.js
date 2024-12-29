@@ -69,3 +69,12 @@ console.log(+false);
 // The + operator (unary plus) tries to convert its operand to a number.
 // The false boolean is coerced to a numeric value:
 // false → 0.
+
+
+// Question - 6
+console.log(''==false);
+console.log(''===false);
+// Expected Output = true
+//                   false
+// console.log('' == false); → Output: true because == allows type coercion, and an empty string ('') is coerced to false.
+// console.log('' === false); → Output: false because === checks for strict equality without type coercion, and '' (string) is not the same type as false (boolean).
