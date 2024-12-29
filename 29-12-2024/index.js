@@ -85,3 +85,6 @@ console.log(NaN == NaN);
 // Expected Output = false
 //                   false
 // Reason = In JavaScript, NaN is never equal to itself (NaN === NaN and NaN == NaN both return false) due to the IEEE 754 floating-point standard.
+
+console.log(typeof 1000);
+console.log(typeof typeof 1000)
