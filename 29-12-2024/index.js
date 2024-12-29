@@ -32,3 +32,19 @@ console.log(arr2);
 // Expected Output = [ 0, 1, 2, 3, 4, 5 ]
 // Reason = Unshift method adds the element at the starting of the array.
 
+
+
+
+
+//Question - 3
+// Splice Method
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(2,1,'Pratham','Saxena');
+console.log(fruits);
+// Expected Output = [ 'Banana', 'Orange', 'Pratham', 'Saxena', 'Mango' ]
+// Reason = Splice method removes and add elements in the original array
+        //  First Parameter = Index To perform addition or removal
+        // Second Parameter = Number of elements wants to remove
+        // Third and So one Parameters are the elements you wanted to add.
+
+        
