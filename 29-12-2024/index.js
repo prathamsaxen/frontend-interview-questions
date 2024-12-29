@@ -153,6 +153,10 @@ const arr4=[1,23,4];
 
 console.log(delete data.name);
 console.log(delete arr4);
+console.log(delete arr4[2])
+console.log(arr4)
 // Expected Output = true
 // As delete keyword used to remove an keyvalue pair from an object it can remove in the original array.
+// It wount work on array then its return false theri and in array it wount remove the element it will simply delete the value of element
+//.
 
