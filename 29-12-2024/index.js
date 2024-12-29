@@ -168,3 +168,17 @@ console.log(a === b);
 console.log( a==b);
 // Expected = false false
 // a === b and a == b both return false because they are distinct objects, even if their content is the same.
+
+
+// Quwstion - 15 What are High Order function
+function higherOrderFunction(callback) {
+    // Perform some operations
+    // Call the callback function
+    callback();
+}
+function callbackFunction() {
+    console.log("Callback function is executed.");
+}
+// Passing the callback function to the higher-order function
+higherOrderFunction(callbackFunction);
+// avaScript Higher-Order Functions are functions that can accept other functions as arguments, return functions, or both. They enable abstraction and flexibility in code, allowing you to create reusable and modular functions for complex operations, making them essential in functional programming.
