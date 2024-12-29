@@ -88,3 +88,12 @@ console.log(NaN == NaN);
 
 console.log(typeof 1000);
 console.log(typeof typeof 1000)
+// Expeceted Output = number
+//                    string
+// Reason = As the type of number is given in the string format thats why the type of type of is an string.
+
+let arr3= [14,5,6,7];
+arr3[10]=100;
+console.log(arr3);
+// Expected Output = [ 14, 5, 6, 7, <6 empty items>, 100 ]
+// Reason = Till the last index all the middle index will be empty indexes automatically.
