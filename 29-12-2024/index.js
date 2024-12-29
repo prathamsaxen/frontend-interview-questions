@@ -138,14 +138,14 @@ console.log(xyz);
 // Expected Output = Reference Error because abc we accessed it before initialization
 
 
-// Question - 11
+// Question - 12
 var pqr = 1 + stu;
 var stu = 100;
 console.log(stu);
 
 
 
-// Question - 12
+// Question - 13
 const data={
     name:"Pratham Saxena"
 }
@@ -160,3 +160,11 @@ console.log(arr4)
 // It wount work on array then its return false theri and in array it wount remove the element it will simply delete the value of element
 //.
 
+
+// Question - 14
+const a =[];
+const b = [];
+console.log(a === b);
+console.log( a==b);
+// Expected = false false
+// a === b and a == b both return false because they are distinct objects, even if their content is the same.
