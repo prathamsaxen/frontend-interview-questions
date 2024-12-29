@@ -149,6 +149,10 @@ console.log(stu);
 const data={
     name:"Pratham Saxena"
 }
-console.log(data);
+const arr4=[1,23,4];
+
 console.log(delete data.name);
-console.log(data);
+console.log(delete arr4);
+// Expected Output = true
+// As delete keyword used to remove an keyvalue pair from an object it can remove in the original array.
+
