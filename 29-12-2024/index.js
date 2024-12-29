@@ -116,7 +116,7 @@ function myFunction(){
 }
 
 function myFunction2(){
-    "use strict";
+    // "use strict";
      abc=100;
     console.log(abc);
 }
@@ -125,3 +125,30 @@ myFunction2();
 // Expected Output = 100
 //                   Reference Error
 // n myFunction(), the variable xyz is implicitly created as a global variable (without use strict), so it logs 100, but in myFunction2(), "use strict" enforces strict mode, and the assignment to abc without declaration throws a ReferenceError.
+
+
+
+
+
+
+// Question - 11
+var xyz = 1 + abc;
+abc = 100;
+console.log(xyz);
+// Expected Output = Reference Error because abc we accessed it before initialization
+
+
+// Question - 11
+var pqr = 1 + stu;
+var stu = 100;
+console.log(stu);
+
+
+
+// Question - 12
+const data={
+    name:"Pratham Saxena"
+}
+console.log(data);
+console.log(delete data.name);
+console.log(data);
