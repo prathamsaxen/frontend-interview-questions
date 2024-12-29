@@ -78,3 +78,10 @@ console.log(''===false);
 //                   false
 // console.log('' == false); → Output: true because == allows type coercion, and an empty string ('') is coerced to false.
 // console.log('' === false); → Output: false because === checks for strict equality without type coercion, and '' (string) is not the same type as false (boolean).
+
+// Question - 7
+console.log(NaN === NaN);
+console.log(NaN == NaN);
+// Expected Output = false
+//                   false
+// Reason = In JavaScript, NaN is never equal to itself (NaN === NaN and NaN == NaN both return false) due to the IEEE 754 floating-point standard.
