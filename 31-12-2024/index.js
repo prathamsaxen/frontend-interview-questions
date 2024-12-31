@@ -8,3 +8,13 @@ if (a === "Hello World") {
 }
 console.log(a);
 console.log(b);
+
+// About let keyword
+let c = 10;
+    c = 20;
+    console.log(c);
+    if(c===20)
+    {
+        let d=20;
+    }
+// console.log(d);
