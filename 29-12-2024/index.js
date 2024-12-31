@@ -206,3 +206,22 @@ higherOrderFunction(callbackFunction);
 // Purpose: Dependencies are for production; Dev dependencies are for development.
 // Installation: Dependencies are installed without --save-dev, Dev dependencies use --save-dev.
 // Production Build: Dev dependencies are excluded from the production build.
+
+
+
+
+
+// Question 17 - Optimize React App?
+// 1. Lazy Loading
+// 2. Memoize
+// 3. Code Splitting
+
+
+
+// Question 18 useMemo vs useCallBack?
+// useMemo optimizes expensive calculations, while useCallback optimizes functions passed to child components.
+
+
+
+// Question 19 - What is esLint?
+// ESLint (or JavaScript Linting Tool) is a powerful tool for identifying and fixing problems in your JavaScript code. It helps ensure your code adheres to a consistent style guide, improves code quality, and makes debugging easier.
