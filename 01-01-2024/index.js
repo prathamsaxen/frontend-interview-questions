@@ -64,3 +64,13 @@ const ArrowFunction=(...arguments)=>{
 // Call
 TraditionalFunction(1234,4321);
 ArrowFunction(1234,4321);
+
+// Summary Table
+// Feature	Function Declaration	Arrow Function
+// Syntax	function add(a, b) {}	const add = (a, b) => {}
+// this Context	Dynamic binding	Lexical (inherited)
+// arguments Object	Available	Not available
+// Constructor	Can be used as a constructor	Cannot be used as a constructor
+// Method Definition	Suitable	Not recommended
+// Readability	Verbose for simple functions	Concise
+
