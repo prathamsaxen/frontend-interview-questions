@@ -14,6 +14,7 @@ console.log(str2);
 // 2. Arrow Functions 
 // Difference Between Them -
 // a. Syntax
+// b. Arguments
 
 
 
@@ -41,3 +42,25 @@ tempArrowFunction();
 
 console.log(`Type of Temp Function ----------> ${typeof tempFunction}`)
 console.log(`Type of Temp Arrow Function ----------> ${typeof tempArrowFunction}`)
+
+
+
+
+// Arguments 
+// Traditional Function
+function TraditionalFunction()
+{
+    console.log(arguments);
+    console.log(typeof arguments);
+}
+
+
+const ArrowFunction=(...arguments)=>{
+    console.log(...arguments)
+    console.log(typeof arguments);
+}
+
+
+// Call
+TraditionalFunction(1234,4321);
+ArrowFunction(1234,4321);
