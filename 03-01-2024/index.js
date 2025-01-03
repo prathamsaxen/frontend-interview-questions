@@ -32,3 +32,12 @@ arr.forEach((item,index)=>arr[index]=item*4);
 console.log(arr);
 
 // Simple Difference map returns you want where forEach does not returns
+
+
+
+// Question - 4
+console.log(![] + []);
+// Expected Output = false
+// Reason = Empty array is considered as true
+// When we concatenate an false + empty array which as empty string 
+// then resultant output will false
