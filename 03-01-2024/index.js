@@ -41,3 +41,22 @@ console.log(![] + []);
 // Reason = Empty array is considered as true
 // When we concatenate an false + empty array which as empty string 
 // then resultant output will false
+
+
+
+// Question - 5
+{
+    var a = -5;
+}
+
+let b = a;
+
+{
+    let b = -20;
+}
+
+console.log(b);
+
+// Expected Output = -5;
+// Reason = Var = Global Scope;
+//          Let = Block Scope;
