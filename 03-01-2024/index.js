@@ -60,3 +60,26 @@ console.log(b);
 // Expected Output = -5;
 // Reason = Var = Global Scope;
 //          Let = Block Scope;
+
+
+
+// Question - 6
+// What is npm?
+// Node Package Manager?
+
+// Entry Point File of React App and role of index.js?
+
+
+
+// What is the difference between frameworks and Library for UI side?
+
+
+// How to Optimize React JS Apps?
+
+
+// Void Elements?
+
+// cellspadding vs cellspacing?
+
+
+// What is Marquee tag?
