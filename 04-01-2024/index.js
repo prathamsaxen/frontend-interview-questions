@@ -32,3 +32,23 @@ const finalOutput = data(19);
 console.log(finalOutput);
 console.log(currying(2)(5)(8));
 // Curryin works over closure if your function returns nested function which are taking arguments then instead of calling them again you can directly call them in same line with currying,
+
+
+
+
+
+
+
+// Infinite Currying
+function infiniteCurrying(a)
+{
+    return function(b)
+    {
+        if(b) return infiniteCurrying(a+b);
+        return a;
+    }
+}
+
+console.log(infiniteCurrying(2)(4)(6)())
+
+// Inifinte Currying means not the function is dynamic it can support n number of different elements as parameter.
